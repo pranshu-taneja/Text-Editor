@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Text Editor</title>
+</head>
+<body>
+    <div class="textboxes">
+        <h1 class="Head">Text Editor</h1>
+        <form action="/get" method="get">
+            <textarea name="form1_data" id="one" cols="60" rows="20" placeholder="Enter Your Text Here"></textarea><br>
+        </form>
+        
+        <form action="/get" method="get">
+            <textarea readonly="true" name="form2_data" id="two" cols="60" rows="20" placeholder="Your Result will be Shown Here"></textarea><br>
+        </form>
+    </div>
+
+    <div class="action_selection">  
+            <select name="action1" id="action1">
+                <option value="Split">Split</option>
+                <option value="Replace">Replace</option>
+                <option value="Case Change">Case Change</option>
+                <option value="Character Amount">Character Amount</option>
+            </select>
+            <button id="action_button" class="action_button">Apply</button>
+    </div>
+    
+</body>
+</html>

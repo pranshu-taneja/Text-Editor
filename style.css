@@ -1,0 +1,92 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: #cc2b5e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsl(285, 40%, 38%), #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 60vw;
+
+}
+
+.Head{
+    position: relative;
+    left: 38vw;
+    font-size: 3.5rem;
+    color: rgb(233, 233, 233);
+    
+}
+#one{
+    position: absolute;
+    resize: none;
+    top: 15%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 0.2em solid rgba(53, 51, 51, 0.572);
+    border-radius: 1.5rem;
+    background-color: #d8d8d89f;
+}
+
+#two{
+    position: absolute;
+    resize: none;
+    left: 60%;
+    top: 15%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 0.2em solid rgba(53, 51, 51, 0.572);
+    border-radius: 1.5rem;
+    background-color: #d8d8d89f;
+}
+
+.action_selection{
+    position: absolute;
+    color: #ffffffdb;
+    font-size: 1.5rem;
+    top: 80%;
+    left: 40%;
+}
+#action1{
+    border-radius: 0.2rem;
+    text-align: center;
+    background-color: #ffffff96;
+    font-size: 1.5rem;
+}
+
+
+.action_button{
+    font-size: 1.4rem;
+    border-radius: 0.2rem;
+}
+
+@media screen and (max-width: 950px) {
+    #one{
+        position: relative;
+    }
+    #two{
+        position: relative;
+    }
+    .action_selection{
+        position: relative;
+    }
+}
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: #fefefe41;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(179, 179, 179);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(89, 89, 89, 0.499);
+  border-radius: 10px;
+}
